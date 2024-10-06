@@ -1,0 +1,82 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #A8FCED;
+    color: #0505A5;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Profile Photo Styling */
+.profile-photo {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #0505A5;
+    border-bottom: 2px solid #0505a5;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0D9CFA;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
