@@ -3,17 +3,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 /* Body and Font Styling */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #A8FCED;
+    font-family: Papyrus, sans-serif;
+    line-height: 2.0;
+    background-color: #7ed9d9; /* Define a cor de fundo do body */
     color: #0505A5;
     padding: 20px;
     max-width: 1000px;
     margin: auto;
+}
+
+.color2 {
+    background-color: #20589b;
+}
+
+.color3 {
+    background-color: #2ba2c8;
+}
+
+.color4 {
+    background-color: #2bc6c8;
+}
+
+.color5 {
+    background-color: #7ed9d9;
 }
 
 /* Profile Photo Styling */
@@ -29,6 +46,7 @@ body {
 header {
     text-align: center;
     margin-bottom: 20px;
+    
 }
 
 h1 {
@@ -54,7 +72,7 @@ ul {
 }
 
 ul li {
-    background: #fff;
+    background: #b9d2d8;
     padding: 10px;
     margin-bottom: 5px;
     border-radius: 5px;
@@ -72,7 +90,7 @@ footer {
 }
 
 footer a {
-    color: #fff;
+    color: ##1a717c;
     text-decoration: bold;
 }
 
